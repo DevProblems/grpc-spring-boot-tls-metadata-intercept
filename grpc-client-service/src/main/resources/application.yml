@@ -1,0 +1,8 @@
+server:
+  port: 8000
+
+grpc:
+  client:
+    devproblems-channel:
+      address: static://localhost:9000
+      negotiation-type: plaintext

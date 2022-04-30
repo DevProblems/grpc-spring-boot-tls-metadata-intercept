@@ -1,0 +1,22 @@
+/**
+ * @author A.Sarang Kumar Tak
+ * @youtubechannelname Dev Problems
+ */
+syntax = "proto3";
+option java_multiple_files = true;
+option java_package = "com.devproblems.shared";
+
+package com.devproblems;
+
+message Request {
+  string lowerCase = 1;
+}
+
+message Response {
+  string upperCase = 1;
+}
+
+service DevProblemsService {
+  rpc getUpperCaseString(Request) returns(Response) {}
+}
+
