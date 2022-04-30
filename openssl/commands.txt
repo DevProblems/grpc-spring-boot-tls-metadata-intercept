@@ -1,0 +1,6 @@
+openssl genrsa -des3 -out ca.key.pem 2048
+openssl req -x509 -new -nodes -key ca.key.pem -sha256 -days 365 -out localhost.cert.pem
+openssl genrsa -out localhost.key 2048
+openssl req -new -key localhost.key -out localhost.csr
+openssl x509 -req -in localhost.csr -CA localhost.cert.pem -CAkey ca.key.pem -CAcreateserial -out localhost.crt -days 365
+openssl pkcs8 -topk8 -nocrypt -in localhost.key -out localhost.pem

@@ -5,4 +5,7 @@ grpc:
   client:
     devproblems-channel:
       address: static://localhost:9000
-      negotiation-type: plaintext
+      negotiation-type: TLS
+      security:
+        trust-cert-collection: file:/home/krishna/Content/grpc-yt/grpc-client-service/certs/localhost.cert.pem
+

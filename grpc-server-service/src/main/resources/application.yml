@@ -1,3 +1,8 @@
 grpc:
   server:
+    security:
+      enabled: true
+      certificate-chain: file:/home/krishna/Content/grpc-yt/grpc-server-service/certs/localhost.crt
+      private-key: file:/home/krishna/Content/grpc-yt/grpc-server-service/certs/localhost.pem
     port: 9000
+
