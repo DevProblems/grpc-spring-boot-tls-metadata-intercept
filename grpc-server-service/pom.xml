@@ -8,11 +8,23 @@
 		<version>2.6.7</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.devproblems.server</groupId>
 	<artifactId>grpc-server-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>grpc-server-service</name>
 	<description>grpc-server-service</description>
+
+	<developers>
+		<developer>
+			<name>A Sarang Kumar Tak</name>
+			<email>sarangdevproblems@gmail.com</email>
+			<url>hhttps://www.linkedin.com/in/sarang-kumar-tak-1454ba111/</url>
+			<organization>Youtube</organization>
+			<organizationUrl>https://www.youtube.com/channel/UCVno4tMHEXietE3aUTodaZQ</organizationUrl>
+		</developer>
+	</developers>
+
 	<properties>
 		<java.version>11</java.version>
 	</properties>
