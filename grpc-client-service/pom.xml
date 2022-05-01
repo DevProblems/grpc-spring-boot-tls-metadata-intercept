@@ -27,7 +27,10 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<maven.compile.source>11</maven.compile.source>
+    		<maven.compile.target>11</maven.compile.target>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
