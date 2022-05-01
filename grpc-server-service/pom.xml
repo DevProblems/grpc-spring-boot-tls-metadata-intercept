@@ -19,7 +19,7 @@
 		<developer>
 			<name>A Sarang Kumar Tak</name>
 			<email>sarangdevproblems@gmail.com</email>
-			<url>hhttps://www.linkedin.com/in/sarang-kumar-tak-1454ba111/</url>
+			<url>https://www.linkedin.com/in/sarang-kumar-tak-1454ba111/</url>
 			<organization>Youtube</organization>
 			<organizationUrl>https://www.youtube.com/channel/UCVno4tMHEXietE3aUTodaZQ</organizationUrl>
 		</developer>
@@ -27,7 +27,10 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<maven.compile.source>11</maven.compile.source>
+    		<maven.compile.target>11</maven.compile.target>
 	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
